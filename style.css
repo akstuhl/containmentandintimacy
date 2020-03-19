@@ -1,5 +1,5 @@
 body {
-  color: #black;
+  color: black;
   font-size: 16px;
   font-family: "Avenir", Futura, "Trebuchet MS", Arial, sans-serif;
   margin: 0;
@@ -11,6 +11,34 @@ body {
   margin: auto;
   padding: 45px 15px 75px 15px;
   text-align: left;
+}
+
+.nav-links {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.nav-links a {
+  padding: 16px;
+  color: black;
+}
+
+.nav-links a:visited {
+  color: black;
+}
+
+.cancellation-notice h3 {
+  color: #dc3545;
+  font-size: 24px;
+}
+
+.cancellation-notice p {
+  font-style: italic;
+}
+
+.cancellation-notice a {
+  text-decoration: none;
 }
 
 .content-grid p {
@@ -85,4 +113,8 @@ li {
 -webkit-column-break-inside: avoid;
           page-break-inside: avoid;
                break-inside: avoid;
+}
+
+.poster {
+  margin-top: 13px;
 }
