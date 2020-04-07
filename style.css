@@ -51,7 +51,7 @@ a:visited {
   font-style: italic;
 }
 
-.cancellation-notice a {
+.cancellation-notice > a {
   text-decoration: none;
 }
 
@@ -145,11 +145,19 @@ table.abstracts-index {
   padding: 6px 12px;
 }
 
+#abstracts-main h2 {
+  text-align: center;
+}
+
 #abstracts-main h3 {
   margin-bottom: 0;
 }
 
-.author {
+#abstracts-main img {
+  max-width: 600px;
+}
+
+.author, .caption {
   margin-top: 0;
 }
 
@@ -159,4 +167,21 @@ table.abstracts-index {
 
 .bio em {
   font-style: normal;
+}
+
+.index-return {
+  position: absolute;
+}
+
+.index-return a::before {
+  content: "\2191";
+}
+
+.index-return a {
+  text-decoration: none;
+  position: absolute;
+  left: -56px;
+  top: 6px;
+  padding: 5px 12px;
+  background-color: #fdf1ef;
 }
